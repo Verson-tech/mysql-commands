@@ -64,3 +64,11 @@ show databases;
   ```
 
   ![describe table](./img/desc-cats-table.png)
+
+- Insert into cats table only one value out of two specified columns:
+
+  ```
+    INSERT INTO cats (name)
+    VALUES
+      ('Misty');
+  ```

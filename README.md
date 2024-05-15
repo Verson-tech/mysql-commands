@@ -74,3 +74,13 @@ show databases;
   ```
 
   ![insert into cats](./img/null.png)
+
+- Insert no values:
+
+  ```
+    INSERT INTO cats
+    VALUES
+      ();
+  ```
+
+  ![insert no values](./img/null-null.png)

@@ -14,12 +14,27 @@ show databases;
 
 - To drop a database:
 
-```
-DROP DATABASE <database-name>;
-```
+  ```
+  ROP DATABASE <database-name>;
+  ```
 
 - To use a database:
 
+  ```
+  USE <database-name>;
+  ```
+
+- Create a table:
+
 ```
-USE <database-name>;
+CREATE TABLE cats (
+    name VARCHAR(50),
+    age INT
+);
+
+CREATE TABLE dogs (
+    name VARCHAR(50),
+    breed VARCHAR(50),
+    age INT
+);
 ```

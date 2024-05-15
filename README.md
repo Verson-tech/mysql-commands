@@ -162,3 +162,17 @@ show databases;
       PRIMARY KEY (cat_id)
   );
   ```
+
+  - AUTO_INCREMENT:
+
+    ```
+    CREATE TABLE unique_cats (
+        cat_id INT AUTO_INCREMENT,
+        name VARCHAR(100) NOT NULL,
+        age INT NOT NULL,
+        PRIMARY KEY (cat_id)
+    );
+    ```
+
+    ![auto increment](./img/p-k.png)
+    ![increment](./img/increment.png)

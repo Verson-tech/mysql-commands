@@ -62,3 +62,5 @@ show databases;
   ```
     DESCRIBE cats;
   ```
+
+  ![describe table](./img/desc-cats-table.png)

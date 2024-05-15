@@ -72,3 +72,5 @@ show databases;
     VALUES
       ('Misty');
   ```
+
+  ![insert into cats](./img/null.png)

@@ -65,6 +65,8 @@ show databases;
 
   ![describe table](./img/desc-cats-table.png)
 
+  In this case NULL is allowed for name and age.
+
 - Insert into cats table only one value out of two specified columns:
 
   ```
@@ -95,3 +97,6 @@ show databases;
   ```
 
   ![not null](./img/not-null.png)
+
+  In this case NULL is not allowed for name and age.
+  ![not null](./img/null-not-allowed.png)
